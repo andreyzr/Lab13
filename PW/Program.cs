@@ -12,8 +12,8 @@ namespace PW
         {
             Man man = new Man("Иванов", 2000, "Москва");
             Console.WriteLine(man.Print());
-            Student student = new Student();
-            student.
+            Student student = new Student("Петров", 1990,"СПБ", "ИТМО");
+            Console.WriteLine(student.Print());
             Console.ReadKey();
         }
     }

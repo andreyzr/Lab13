@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CCF44653-85B5-41DE-97E8-215549D1A632}</ProjectGuid>
+    <ProjectGuid>{12850B5A-2916-4982-A1FA-417C8152B3CE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PW</RootNamespace>
-    <AssemblyName>PW</AssemblyName>
+    <RootNamespace>HW</RootNamespace>
+    <AssemblyName>HW</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Man.cs" />
+    <Compile Include="Building.cs" />
+    <Compile Include="MultiBuilding.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
